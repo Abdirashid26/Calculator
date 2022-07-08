@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULATOR"
+        android:fontFamily="@font/delightcandles"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"
+        android:textSize="20dp"
+        android:id="@+id/title"
+        android:layout_marginBottom="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/layout1"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:textSize="20dp"
+            android:hint="Answer"
+            android:textColorHint="@color/white"
+            android:id="@+id/answer"
+            android:paddingLeft="10dp"
+            android:paddingVertical="25dp"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout2"
+        android:layout_below="@id/layout1"
+        android:padding="4dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="7"
+            android:paddingVertical="40dp"
+            android:layout_marginHorizontal="3dp"
+            android:id="@+id/seven"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="8"
+            android:paddingVertical="40dp"
+            android:layout_marginHorizontal="3dp"
+            android:id="@+id/eight"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="9"
+            android:paddingVertical="40dp"
+            android:layout_marginHorizontal="3dp"
+            android:id="@+id/nine"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="X"
+            android:paddingVertical="40dp"
+            android:layout_marginHorizontal="3dp"
+            android:id="@+id/multiply"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout3"
+        android:layout_below="@id/layout2"
+        android:padding="4dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="4"
+            android:paddingVertical="40dp"
+            android:layout_marginHorizontal="3dp"
+            android:id="@+id/four"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="5"
+            android:layout_marginHorizontal="3dp"
+            android:paddingVertical="40dp"
+            android:id="@+id/five"
+            />
+
+        <Button
+            android:id="@+id/six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="3dp"
+            android:backgroundTint="@color/teal_700"
+            android:paddingVertical="40dp"
+            android:text="6" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="-"
+            android:paddingVertical="40dp"
+            android:layout_marginHorizontal="3dp"
+            android:id="@+id/minus"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout4"
+        android:layout_below="@id/layout3"
+        android:padding="4dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="3"
+            android:paddingVertical="40dp"
+            android:layout_marginHorizontal="3dp"
+            android:id="@+id/three"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="2"
+            android:layout_marginHorizontal="3dp"
+            android:id="@+id/two"
+            android:paddingVertical="40dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="1"
+            android:paddingVertical="40dp"
+            android:layout_marginHorizontal="3dp"
+            android:id="@+id/one"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="+"
+            android:paddingVertical="40dp"
+            android:layout_marginHorizontal="3dp"
+            android:id="@+id/plus"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout5"
+        android:layout_below="@id/layout4"
+        android:padding="4dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="0"
+            android:layout_marginHorizontal="3dp"
+            android:paddingVertical="40dp"
+            android:id="@+id/zero"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="/"
+            android:layout_marginHorizontal="3dp"
+            android:id="@+id/div"
+            android:paddingVertical="40dp"
+            />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="="
+            android:layout_marginHorizontal="3dp"
+            android:id="@+id/equal"
+            android:paddingVertical="40dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="del"
+            android:layout_marginHorizontal="3dp"
+            android:id="@+id/delete"
+            android:paddingVertical="40dp"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout5"
+        android:layout_marginTop="30dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faisal Abdirashid"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/delightcandles"
+            android:textSize="20dp"
+            android:textColor="@color/teal_700"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
