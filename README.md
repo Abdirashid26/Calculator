@@ -3,7 +3,10 @@ An android calculator app developed in Java (Bodmas).
 
 
 ## Preview
-Uploading XRecorder_Edited_14072022_124511.mp4…
+
+
+https://user-images.githubusercontent.com/49816777/178955547-cfe694c1-9977-4a75-a962-4e40fade86b9.mp4
+
 
 
 ## Usage
